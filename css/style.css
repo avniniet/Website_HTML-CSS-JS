@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  cursor: pointer;
+  top: 0;
+}
+
+.nav-list {
+  width: 50%;
+  /* background-color: black; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.nav-list li {
+  list-style: none;
+  padding: 15px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-list li a:hover {
+  text-decoration: none;
+  color: grey;
+}
+
+.logo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 70%;
+  border: 3px solid white;
+}
+
+.rightNav {
+  /* background-color: seagreen; */
+  width: 50%;
+  text-align: right;
+  padding: 10px 50px;
+}
+
+.background {
+  background: rgba(0, 0, 0, 0.7) url("/img/mountain-medium.jpg");
+}
+
+#search {
+  padding: 5px;
+  border: 2px solid grey;
+  border-radius: 9px;
+  font-size: 17px;
+}
+
+.box-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: auto;
+  max-width: 50%;
+  height: 80%;
+}
+
+.firstSection {
+  height: 100vh;
+}
+
+.firstHalf {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.secondHalf {
+  width: 20%;
+}
+
+.secondHalf img {
+  width: 70%;
+  border: 2px solid white;
+  border-radius: 19px;
+  display: block;
+  margin: auto;
+}
+
+.textBig {
+  font-size: 37px;
+}
+.textSmall {
+  font-size: 16px;
+}
+
+.btn {
+  border: 2px solid white;
+  padding: 7px;
+  margin: 1px;
+  border-radius: 6px;
+  background: none;
+  color: white;
+  cursor: pointer;
+}
+
+.secRight {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 280px;
+  max-width: 80%;
+  margin: auto;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.secLeft {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 280px;
+  max-width: 80%;
+  margin: auto;
+  flex-direction: row-reverse;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.sectionSubTag {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
