@@ -1,0 +1,51 @@
+@media screen and (max-width: 1050px) {
+  .navbar {
+    flex-direction: column;
+    transition: all 1s ease-out;
+    height: 400px;
+  }
+  .nav-list {
+    flex-direction: column;
+  }
+  .burger {
+    display: block;
+  }
+
+  .h-nav {
+    height: 50px;
+  }
+
+  .visibility {
+    opacity: 0;
+  }
+
+  .box-main {
+    flex-direction: column;
+  }
+  .textBig {
+    text-align: center;
+  }
+  .textSmall {
+    text-align: center;
+  }
+  .buttons {
+    text-align: center;
+  }
+  .secLeft {
+    flex-direction: column-reverse;
+    height: 100%;
+  }
+  .secRight {
+    flex-direction: column-reverse;
+    height: 100%;
+  }
+
+  .paras {
+    padding: 0px;
+  }
+
+  .watch {
+    width: 97px;
+    margin: 3px;
+  }
+}

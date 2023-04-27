@@ -6,6 +6,10 @@
   font-family: "Ubuntu", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar {
   display: flex;
   justify-content: center;
@@ -166,7 +170,7 @@
 }
 
 .form {
-  max-width: 350px;
+  max-width: 50%;
   margin: auto;
 }
 .form-input {
@@ -183,4 +187,19 @@
   justify-content: center;
   align-items: center;
   padding: 10px;
+}
+
+.burger {
+  position: absolute;
+  cursor: pointer;
+  right: 5%;
+  top: 15px;
+  display: none;
+}
+
+.line {
+  width: 33px;
+  background-color: white;
+  margin: 3px;
+  height: 4px;
 }
